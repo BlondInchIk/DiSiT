@@ -62,11 +62,11 @@ pygost/asn1schemas/cert-selfsigned-example.py.
 
 PyGOST is free software: see the file COPYING for copying conditions.
 
-PyGOST'es home page is: http://www.pygost.cypherpunks.ru/
-You can read about GOST algorithms more: http://www.gost.cypherpunks.ru/
+PyGOST'es home page is: http://www.pygost.cypherpunks.su/
+You can read about GOST algorithms more: http://www.gost.cypherpunks.su/
 
 Please send questions, bug reports and patches to
-http://lists.cypherpunks.ru/gost.html mailing list.
+http://lists.cypherpunks.su/gost.html mailing list.
 Announcements also go to this mailing list.
 
 Development Git source code repository currently is located here:
