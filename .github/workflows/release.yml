@@ -1,0 +1,24 @@
+name: Build and Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            build-Linux/gost-linux
+            build-Windows/gost-windows.exe
+            gost_34102012.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
