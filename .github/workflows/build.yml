@@ -23,17 +23,13 @@ jobs:
         with:
           python-version: "3.12"
           
-      - name: Install local PyGOST
-        run: |
-          pip install ./pygost
-          
       - name: Install dependencies
         run: |
-          pip install nuitka
+          pip install nuitka PySide6
 
       - name: Build
         run: |
-          python -m nuitka --onefile --assume-yes-for-downloads gost_34102012.py
+          python -m nuitka --onefile --follow-imports --enable-plugin=pyside6 --assume-yes-for-downloads gost_34102012.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4

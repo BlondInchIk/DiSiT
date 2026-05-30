@@ -4,9 +4,10 @@ __pycache__/
 *.pyc
 *.pyo
 
-build/
-dist/
+*.build/
+*.dist/
 *.bin
 *.exe
 
 *.log
+nuitka-crash-report.xml
