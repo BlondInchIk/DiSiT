@@ -33,7 +33,7 @@ jobs:
 
       - name: Build
         run: |
-          python -m nuitka --onefile gost_34102012.py
+          python -m nuitka --onefile --assume-yes-for-downloads gost_34102012.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
