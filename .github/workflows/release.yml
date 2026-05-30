@@ -17,8 +17,8 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            build-Linux/gost-linux
-            build-Windows/gost-windows.exe
+            build-Linux/gost_34102012.bin
+            build-Windows/gost_34102012.exe
             gost_34102012.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
