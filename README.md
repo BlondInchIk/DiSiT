@@ -43,7 +43,7 @@ python start.py
 
 ## Режимы работы
 
-### GUI
+### Графический режим (GUI)
 
 Windows
 ```bash
@@ -53,9 +53,8 @@ Linux
 ```bash
 ./DiSiT.bin
 ```
-![Screenshot](docs/GUI.png)
 
-### CLI
+### Консольный режим (CLI)
 
 Linux
 ```bash
