@@ -3,7 +3,6 @@ import customtkinter as ctk
 from tkinter import filedialog
 from core import core
 
-
 class App(ctk.CTk):
     def __init__(self):
         super().__init__()
