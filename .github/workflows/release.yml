@@ -12,10 +12,15 @@ jobs:
     strategy:
       matrix:
         include:
-          - os: ubuntu-latest
-            artifact_name: build-Linux
-          - os: windows-latest
-            artifact_name: build-Windows
+      - os: ubuntu-latest
+        artifact_name: build-Linux
+        ext: ".bin"
+        out_name: DiSiT.bin
+
+      - os: windows-latest
+        artifact_name: build-Windows
+        ext: ".exe"
+        out_name: DiSiT.exe
 
     runs-on: ${{ matrix.os }}
 
