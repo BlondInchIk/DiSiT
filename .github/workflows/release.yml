@@ -39,7 +39,7 @@ jobs:
 
       - name: Build
         run: |
-          python -m nuitka --onefile --follow-imports --assume-yes-for-downloads start.py --output-filename=DiSiT${{ matrix.ext }}
+          python -m nuitka --onefile --follow-imports --enable-plugin=tk-inter --assume-yes-for-downloads start.py --output-filename=DiSiT${{ matrix.ext }}
 
       # Загружаем собранные бинарники как артефакты
       - name: Upload artifact
