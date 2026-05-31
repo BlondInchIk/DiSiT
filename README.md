@@ -1,4 +1,4 @@
-# DiGiT
+# DiSiT
 
 [![Latest release](https://img.shields.io/github/v/release/BlondInchIk/DiSiT)](https://github.com/BlondInchIk/DiSiT/releases/latest)
 [![License: MIT](https://img.shields.io/github/license/BlondInchIk/DiSiT)](LICENSE)

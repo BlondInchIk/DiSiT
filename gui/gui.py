@@ -8,7 +8,7 @@ class App(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("DiGiT - Digital Signature Tool")
+        self.title("DiSiT - Digital Signature Tool")
         self.geometry("900x500")
         self.minsize(800, 450)
 
@@ -67,7 +67,7 @@ class App(ctk.CTk):
         # ===== TOP TEXT =====
         self.sidebar_title = ctk.CTkLabel(
             self.sidebar,
-            text="DiGiT",
+            text="DiSiT",
             font=("Arial", 34, "bold"),
             text_color="#dddddd"
         )
