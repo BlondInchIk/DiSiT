@@ -30,11 +30,12 @@ jobs:
           
       - name: Install dependencies
         run: |
-          pip install nuitka PySide6
+          pip install nuitka customtkinter
 
       - name: Build
         run: |
-          python -m nuitka --onefile --follow-imports --enable-plugin=pyside6 --assume-yes-for-downloads gost_34102012.py
+          python -m nuitka --onefile --follow-imports --assume-yes-for-downloads start.py \
+          --output-filename=DiGiT${{ matrix.ext }}
 
       # Загружаем собранные бинарники как артефакты
       - name: Upload artifact
@@ -42,9 +43,7 @@ jobs:
         with:
           name: ${{ matrix.artifact_name }}
           path: |
-            gost_34102012
-            gost_34102012.exe
-            gost_34102012.bin
+            DiGiT${{ matrix.ext }}
 
   # 2. ПОТОМ ПУБЛИКУЕМ РЕЛИЗ
   release:
@@ -70,9 +69,8 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            artifacts/build-Linux/gost_34102012
-            artifacts/build-Linux/gost_34102012.bin
-            artifacts/build-Windows/gost_34102012.exe
-            gost_34102012.py
+            artifacts/build-Linux/DiGiT
+            artifacts/build-Linux/DiGiT.bin
+            artifacts/build-Windows/DiGiT.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
