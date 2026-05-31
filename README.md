@@ -27,7 +27,7 @@
 
 | Версия ОС | Ссылка на скачивание |
 |------|-------------|
-| Скачать для Windows | https://github.com/BlondInchIk/DiSiT/releases/download/latest/DiSiT.exev |
+| Скачать для Windows | https://github.com/BlondInchIk/DiSiT/releases/download/latest/DiSiT.exe |
 | Скачать для Linux | https://github.com/BlondInchIk/DiSiT/releases/download/latest/DiSiT.bin |
 
 Шаг 2. Запустить
