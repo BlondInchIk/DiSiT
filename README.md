@@ -6,11 +6,6 @@
 ![Downloads](https://img.shields.io/github/downloads/BlondInchIk/DiSiT/total?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Linux-Windows-blue?style=for-the-badge)
 
-![Stars](https://img.shields.io/github/stars/BlondInchIk/DiSiT?style=for-the-badge)
-![Forks](https://img.shields.io/github/forks/BlondInchIk/DiSiT?style=for-the-badge)
-![Issues](https://img.shields.io/github/issues/BlondInchIk/DiSiT?style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/BlondInchIk/DiSiT?style=for-the-badge)
-
 ## О проекте
 
 ![Screenshot](docs/image.png)
