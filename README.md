@@ -1,9 +1,15 @@
 # DiSiT
 
-[![Latest release](https://img.shields.io/github/v/release/BlondInchIk/DiSiT)](https://github.com/BlondInchIk/DiSiT/releases/latest)
-[![License: MIT](https://img.shields.io/github/license/BlondInchIk/DiSiT)](LICENSE)
-![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-informational)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/BlondInchIk/DiSiT/total)
+![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![License](https://img.shields.io/github/license/BlondInchIk/DiSiT?style=for-the-badge)
+![Release](https://img.shields.io/github/v/release/BlondInchIk/DiSiT?style=for-the-badge)
+![Downloads](https://img.shields.io/github/downloads/BlondInchIk/DiSiT/total?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Linux-Windows-blue?style=for-the-badge)
+
+![Stars](https://img.shields.io/github/stars/BlondInchIk/DiSiT?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/BlondInchIk/DiSiT?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/BlondInchIk/DiSiT?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/BlondInchIk/DiSiT?style=for-the-badge)
 
 ## О проекте
 
