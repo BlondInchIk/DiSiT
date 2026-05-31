@@ -35,7 +35,7 @@ jobs:
       - name: Build
         run: |
           python -m nuitka --onefile --follow-imports --assume-yes-for-downloads start.py \
-          --output-filename=DiGiT${{ matrix.ext }}
+          --output-filename=DiSiT${{ matrix.ext }}
 
       # Загружаем собранные бинарники как артефакты
       - name: Upload artifact
@@ -43,7 +43,7 @@ jobs:
         with:
           name: ${{ matrix.artifact_name }}
           path: |
-            DiGiT${{ matrix.ext }}
+            DiSiT${{ matrix.ext }}
 
   # 2. ПОТОМ ПУБЛИКУЕМ РЕЛИЗ
   release:
@@ -70,8 +70,8 @@ jobs:
         with:
           generate_release_notes: true
           files: |
-            artifacts/build-Linux/DiGiT
-            artifacts/build-Linux/DiGiT.bin
-            artifacts/build-Windows/DiGiT.exe
+            artifacts/build-Linux/DiSiT
+            artifacts/build-Linux/DiSiT.bin
+            artifacts/build-Windows/DiSiT.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
